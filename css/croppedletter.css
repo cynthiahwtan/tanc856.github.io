@@ -1,0 +1,327 @@
+
+body {
+    cursor: url('../assets/cursor.cur'), auto;
+    background-image: url("../assets/cloud.jpg");
+    background-size: 100%;
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+    background-position: left top;
+}
+
+@font-face {
+    font-family: 'Test Signifier Light';
+    src: url(../fonts/test-signifier-light.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Light Italic';
+    src: url(../fonts/test-signifier-light-italic.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Thin';
+    src: url(../fonts/test-signifier-thin.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Thin Italic';
+    src: url(../fonts/test-signifier-thin-italic.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Medium';
+    src: url(../fonts/test-signifier-medium.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Medium Italic';
+    src: url(../fonts/test-signifier-medium-italic.woff2);
+}
+
+@font-face {
+    font-family: '飞花宋体 常规';
+    src: url(../fonts/FeiHuaSongTi-2.ttf);
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+} 
+
+#name {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 5%;
+    left: 8%;
+    font-kerning: normal;
+    z-index: 1;
+}
+
+#name span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+#name a {
+    text-decoration: none;
+}
+
+a:hover span {
+    color: green;
+    text-decoration: none;
+}
+
+#name a:hover:before {
+    font-family: 'Test Signifier Thin Italic';
+    color: purple;
+    font-size: 27px;
+    content:"contents";
+}
+
+#about {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 6%;
+    left: 78%;
+    z-index: 1;
+}
+
+#about span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+#about a {
+    text-decoration: none;
+}
+
+a:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+#about a:hover:before {
+    font-family: '飞花宋体 常规';
+    color: purple;
+    font-size: 27px;
+    content:"关于";
+}
+
+#contact {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 6%;
+    left: 85%;
+    z-index: 1;
+}
+
+#contact span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+a:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+#contact a:hover:before {
+    font-family: '飞花宋体 常规';
+    color: purple;
+    font-size: 27px;
+    content:"联系";
+}
+
+.intro1 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: white;
+    top: 600px;
+    left: 100px; 
+}
+
+.intro1 span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro1:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 26px;
+    content:"字体拼接, 字体排印系列";
+}
+
+.intro2 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    color: white;
+    top: 520px;
+    left: 940px; 
+}
+
+.intro2 span {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro2:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 18px;
+    content:"使用Indesign设计以及拼接的一系列字体排印组合";
+}
+
+.img1 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 600px;
+}
+
+.img2 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 600px;
+}
+
+.img3 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    top: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img4 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    top: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.img5 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    top: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img6 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    top: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.end1 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 20px;
+    padding: 100px;
+    padding-bottom: 100px;
+    color: white;
+    top: 600px;
+    left: 700px; 
+}
+
+.end1 span {
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.end1:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 16px;
+    content:"这个项目的目的是为了介绍Indesign软件以及字母设计的基本理解。";
+}
+
+.end2 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 20px;
+    padding: 100px;
+    padding-bottom: 100px;
+    line-height: normal;
+    color: white;
+    top: 500px;
+    left: 700px; 
+}
+
+.end2 span {
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.end2:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 18px;
+    content:"尺寸=8.5英寸x11.5英寸";
+}
+
+
+
+
+
+

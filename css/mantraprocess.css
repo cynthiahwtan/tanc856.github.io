@@ -1,0 +1,255 @@
+body {
+    cursor: url('../assets/cursor.cur'), auto;
+    background-color: black;
+    height: auto;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Test Signifier Light';
+    src: url(../fonts/test-signifier-light.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Light Italic';
+    src: url(../fonts/test-signifier-light-italic.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Thin';
+    src: url(../fonts/test-signifier-thin.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Thin Italic';
+    src: url(../fonts/test-signifier-thin-italic.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Medium';
+    src: url(../fonts/test-signifier-medium.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Medium Italic';
+    src: url(../fonts/test-signifier-medium-italic.woff2);
+}
+
+@font-face {
+    font-family: '飞花宋体 常规';
+    src: url(../fonts/FeiHuaSongTi-2.ttf);
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+} 
+
+#back {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 5%;
+    left: 7%;
+    font-kerning: normal;
+    z-index: 1;
+}
+
+#back span {
+    text-decoration: none;
+}
+
+#back a {
+    text-decoration: none;
+}
+
+a:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+#back a:hover:before {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 23px;
+    content:"← 回到 口号设计";
+}
+
+
+.intro1 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 35px;
+    color: white;
+    top: 600px;
+    left: 100px; 
+    z-index: 1;
+}
+
+.intro1 span {
+    
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro1:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 33px;
+    content:"口号海报设计过程";
+}
+
+.img1 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 900px;
+}
+
+.one {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 20px;
+    color: gray;
+    top: 920px;
+    left: 570px; 
+}
+
+.one span {
+    color: gray;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.one:hover:after {
+    font-family: '飞花宋体 常规';
+    color: gray;
+    font-size: 20px;
+    content:"口号海报设计过程";
+}
+
+.img2 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1000px;
+    left: -300px;
+}
+
+.img3 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 290px;
+    left: 300px;
+}
+
+.img4 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 400px;
+    left: -300px;
+}
+
+.img5 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -310px;
+    left: 300px;
+}
+
+.img6 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -200px;
+    left: -300px;
+}
+
+.img7 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -910px;
+    left: 300px;
+}
+
+.gif {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -700px;
+    left: 30px; 
+}
+
+.two {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 20px;
+    color: gray;
+    top: -690px;
+    left: 680px; 
+}
+
+.two span {
+    color: gray;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.two:hover:after {
+    font-family: '飞花宋体 常规';
+    color: gray;
+    font-size: 20px;
+    content:"最后制作的动画";
+}
+

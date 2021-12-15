@@ -1,0 +1,457 @@
+
+body {
+    cursor: url('../assets/cursor.cur'), auto;
+    background-image: url("assets/manifesto/manifesto.png");
+    float: right;
+    margin: none;
+    padding: none;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Test Signifier Light';
+    src: url(../fonts/test-signifier-light.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Light Italic';
+    src: url(../fonts/test-signifier-light-italic.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Thin';
+    src: url(../fonts/test-signifier-thin.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Thin Italic';
+    src: url(../fonts/test-signifier-thin-italic.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Medium';
+    src: url(../fonts/test-signifier-medium.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Medium Italic';
+    src: url(../fonts/test-signifier-medium-italic.woff2);
+}
+
+@font-face {
+    font-family: '飞花宋体 常规';
+    src: url(../fonts/FeiHuaSongTi-2.ttf);
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+} 
+
+
+
+.cover {
+    position: relative;
+    max-width: 120%;
+    height: auto;
+}
+
+#name {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: red;
+    position: fixed;
+    top: 5%;
+    left: 8%;
+    font-kerning: normal;
+    z-index: 1;
+}
+
+#name span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+#name a {
+    text-decoration: none;
+}
+
+a:hover span {
+    text-decoration: none;
+}
+
+#name a:hover:before {
+    font-family: 'Test Signifier Thin Italic';
+    color: red;
+    font-size: 27px;
+    content:"contents";
+}
+
+#about {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: red;
+    position: fixed;
+    top: 6%;
+    left: 78%;
+    z-index: 1;
+}
+
+#about span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+#about a {
+    text-decoration: none;
+}
+
+a:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+#about a:hover:before {
+    font-family: '飞花宋体 常规';
+    color: red;
+    font-size: 27px;
+    content:"关于";
+}
+
+#contact {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: red;
+    position: fixed;
+    top: 6%;
+    left: 85%;
+    z-index: 1;
+}
+
+#contact span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+a:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+#contact a:hover:before {
+    font-family: '飞花宋体 常规';
+    color: red;
+    font-size: 27px;
+    content:"联系";
+}
+
+.intro1 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: white;
+    top: -300px;
+    left: 115px; 
+}
+
+.intro1 span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro1:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 26px;
+    content:"口号海报, 字体设计";
+}
+
+.intro2 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    color: black;
+    top: 1100px;
+    left: 790px; 
+}
+
+.intro2 span {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro2:hover:after {
+    font-family: '飞花宋体 常规';
+    color: black;
+    font-size: 20px;
+    content:"根据选择的口头禅设计商品，并将口头禅设计转化为动态内容";
+}
+
+.img1 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+}
+
+.img2 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 500px;
+    left: 300px;
+}
+
+.img3 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 800px;
+    left: 300px;
+}
+
+.intro3 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    color: black;
+    top: 1100px;
+    left: 800px; 
+}
+
+.intro3 span {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro3:hover:after {
+    font-family: '飞花宋体 常规';
+    color: black;
+    font-size: 20px;
+    word-wrap: break-word ;
+    content:"这个口头禅的灵感来自我的母亲。";
+}
+
+.intro4 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    color: white;
+    top: 1100px;
+    left: 800px; 
+}
+
+.intro4 span {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro4:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 20px;
+    word-wrap: break-word ;
+    content:"每次有客人来她都会热情迎接，让他们感到宾至如归。";
+}
+
+.intro5 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    color: white;
+    top: 1200px;
+    left: 800px; 
+}
+
+.intro5 span {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro5:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 20px;
+    word-wrap: break-word ;
+    content:"这也是我为什么选择在设计里使用中英双语。";
+}
+
+.img4 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1400px;
+}
+
+.img5 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1500px;
+}
+
+.img6 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    top: 1600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.end1{
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 20px;
+    color: white;
+    top: 1650px;
+    left: 700px; 
+}
+
+.end1 span {
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.end1:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 20px;
+    content:"家，这个中文词翻译成 home。";
+}
+
+.end2 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 20px;
+    padding-bottom: 100px;
+    line-height: normal;
+    color: white;
+    top: 1630px;
+    left: 700px; 
+}
+
+.end2 span {
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.end2:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 20px;
+    content:"我把这些字母交织在一起，以显示两种文化的影响。";
+}
+
+.end3 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 20px;
+    line-height: normal;
+    color: white;
+    top: 1550px;
+    left: 700px; 
+}
+
+.end3 span {
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.end3:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 18px;
+    content:"设计使用：Photoshop和Illusrtrator软件";
+}
+
+#process {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 30px;
+    color: gold;
+    position: relative;
+    padding-bottom: 100px;
+    text-decoration: underline;
+    top: 1650px;
+    left: 700px;
+    z-index: 1;
+}
+
+#process span {
+    text-decoration: none;
+}
+
+#process a {
+    text-decoration: none;
+}
+
+a:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+#process a:hover:before {
+    font-family: '飞花宋体 常规';
+    color: gold;
+    font-size: 27px;
+    content:"设计过程↗ ";
+}

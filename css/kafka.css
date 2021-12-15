@@ -1,0 +1,532 @@
+
+body {
+    cursor: url('../assets/cursor.cur'), auto;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Test Signifier Light';
+    src: url(../fonts/test-signifier-light.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Light Italic';
+    src: url(../fonts/test-signifier-light-italic.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Thin';
+    src: url(../fonts/test-signifier-thin.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Thin Italic';
+    src: url(../fonts/test-signifier-thin-italic.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Medium';
+    src: url(../fonts/test-signifier-medium.woff2);
+}
+
+@font-face {
+    font-family: 'Test Signifier Medium Italic';
+    src: url(../fonts/test-signifier-medium-italic.woff2);
+}
+
+@font-face {
+    font-family: '飞花宋体 常规';
+    src: url(../fonts/FeiHuaSongTi-2.ttf);
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+} 
+
+.cover {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    background-attachment:fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+#name {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: gray;
+    position: fixed;
+    top: 5%;
+    left: 8%;
+    font-kerning: normal;
+    z-index: 1;
+}
+
+#name span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+#name a {
+    text-decoration: none;
+}
+
+a:hover span {
+    text-decoration: none;
+}
+
+#name a:hover:before {
+    font-family: 'Test Signifier Thin Italic';
+    color: silver;
+    font-size: 27px;
+    content:"contents";
+}
+
+#about {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: gray;
+    position: fixed;
+    top: 6%;
+    left: 78%;
+    z-index: 1;
+}
+
+#about span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+#about a {
+    text-decoration: none;
+}
+
+a:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+#about a:hover:before {
+    font-family: '飞花宋体 常规';
+    color: gray;
+    font-size: 27px;
+    content:"关于";
+}
+
+#contact {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: gray;
+    position: fixed;
+    top: 6%;
+    left: 85%;
+    z-index: 1;
+}
+
+#contact span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+a:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+#contact a:hover:before {
+    font-family: '飞花宋体 常规';
+    color: gray;
+    font-size: 27px;
+    content:"联系";
+}
+
+
+.intro1 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: white;
+    top: -200px;
+    left: 115px; 
+}
+
+.intro1 span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro1:hover:after {
+    font-family: '飞花宋体 常规';
+    color: white;
+    font-size: 26px;
+    content:"《变形记》, 书本设计";
+}
+
+.intro2 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    color: black;
+    top: 100px;
+    left: 740px; 
+}
+
+.intro2 span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro2:hover:after {
+    font-family: '飞花宋体 常规';
+    color: black;
+    font-size: 18px;
+    content:"《变形记》是弗朗茨·卡夫卡（Franz Kafka）写的一部短篇小说。";
+}
+
+.intro3 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    color: black;
+    top: 150px;
+    left: 740px; 
+}
+
+.intro3 span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro3:hover:after {
+    font-family: '飞花宋体 常规';
+    color: black;
+    font-size: 18px;
+    content:"这本书聚焦于孤立,身份和来自社会的压力等主题。";
+}
+
+.img1 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 300px;
+    left: 200px;
+}
+
+.img2 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 450px;
+    left: 200px;
+}
+
+.img3 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 600px;
+    left: 200px;
+}
+
+.intro4 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    color: black;
+    top: 800px;
+    left: 740px; 
+}
+
+.intro4 span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro4:hover:after {
+    font-family: '飞花宋体 常规';
+    color: black;
+    font-size: 20px;
+    content:"光明与黑暗的关系是本书的一大主题。";
+}
+
+.intro5 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    color: black;
+    top: 900px;
+    left: 740px; 
+}
+
+.intro5 span {
+    font-size:25px;
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.intro5:hover:after {
+    font-family: '飞花宋体 常规';
+    color: black;
+    font-size: 20px;
+    content:"因此，章节页面以被裁剪的方式来慢慢揭示结尾的“光亮”。";
+}
+
+.img4 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 1100px;
+    left: 200px;
+}
+
+.img5 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 1200px;
+    left: 200px;
+}
+
+.img6 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 1300px;
+    left: 200px;
+}
+
+.img7 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 1400px;
+    left: 200px;
+}
+
+.img8 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 1600px;
+    left: 200px;
+}
+
+.img9 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 1800px;
+    left: 200px;
+}
+
+.img10 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 2000px;
+    left: 200px;
+}
+
+.img11 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 2200px;
+    left: 200px;
+}
+
+.img12 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 2400px;
+    left: 200px;
+}
+
+.img13 {
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    background-attachment:fixed;
+    overflow-x: hidden;
+    top: 2600px;
+    left: 200px;
+}
+
+
+.end1{
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    color: black;
+    top: 2800px;
+    left: 740px; 
+}
+
+.end1 span {
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.end1:hover:after {
+    font-family: '飞花宋体 常规';
+    color: black;
+    font-size: 20px;
+    content:"本书总共包含94页黑白页面，在设计工作室手工印刷和装订。";
+}
+
+.end2 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    padding-bottom: 100px;
+    line-height: normal;
+    color: black;
+    top: 2900px;
+    left: 740px; 
+}
+
+.end2 span {
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.end2:hover:after {
+    font-family: '飞花宋体 常规';
+    color: black;
+    font-size: 18px;
+    content:"书里的渐变和黑白色调让读者深度体验到黑暗到光明的过渡，加深故事的进展。";
+}
+
+.end3 {
+    position: relative;
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 25px;
+    line-height: normal;
+    color: black;
+    top: 2900px;
+    left: 740px; 
+}
+
+.end3 span {
+    text-decoration: none;
+}
+
+p:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+.end3:hover:after {
+    font-family: '飞花宋体 常规';
+    color: black;
+    font-size: 20px;
+    content:"尺寸：5英寸x8英寸";
+}
+
+#process {
+    font-family: 'Test Signifier Thin Italic';
+    font-size: 30px;
+    color: black;
+    position: relative;
+    padding-bottom: 100px;
+    text-decoration: underline;
+    top: 2950px;
+    left: 740px;
+    z-index: 1;
+}
+
+#process span {
+    text-decoration: none;
+}
+
+#process a {
+    text-decoration: none;
+}
+
+a:hover span {
+    display: none;
+    text-decoration: none;
+}
+
+#process a:hover:before {
+    font-family: '飞花宋体 常规';
+    color: gray;
+    font-size: 25px;
+    content:"设计过程↗ ";
+}
+
+
+
+
+
